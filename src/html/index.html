@@ -11,35 +11,89 @@
 </head>
 <body>
     <header class="top-bar">
-        <h1>Biodiversidad.co</h1>
+        <h1 class="logo-biodiversidad"><span>Bio</span>diversidad.<span>co</span></h1>
     </header>
+
+    <div class="scroll-indicator arrow-down">
+        <div class="arrow">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>   
+    </div>
     
     <main id="fullpage">
-        <section class="section col-1 align-center">
+        
+        <section class="section col col-1 align-center bg-gray-1 bg-image--right" style="background-image:url(./img/pattern.svg)">
             <h2 class="counter-title">Lanzamiento de los canales en</h2>
-            <span id="counter" class="counter"></span>
+            <span id="counter" class="counter row">
+                <div class="col col-4">
+                    <span id="counterDays" class="counter__number">00</span>
+                    <div class="counter__label">Días</div>
+                </div>
+                <div class="col col-4">
+                    <span id="counterHours" class="counter__number">00</span>
+                    <div class="counter__label">Horas</div>
+                </div>
+                <div class="col col-4">
+                    <span id="counterMinutes" class="counter__number">00</span>
+                    <div class="counter__label">Minutos</div>
+                </div>
+                <div class="col col-4">
+                    <span id="counterSeconds" class="counter__number">00</span>
+                    <div class="counter__label">Segundos</div>
+                </div>
+            </span>
         </section>
 
-        <!--
-
-            <section class="section col-1 align-center">
-                <h3>Portal de Datos</h3>
-                <a href="#" class="btn">Entrar al portal</a>
-            </section>
-            <section class="section col-1 align-center">
-                <h3>Colecciones en Linea</h3>
-                <a href="#" class="btn">Entrar a las colecciones</a>
-            </section>
-            <section class="section col-1 align-center">
-                <h3>Listas de especies</h3>
-                <a href="#" class="btn">Entrar a listas</a>
-            </section>
-            <section class="section col-1 align-center">
-                <h3>Catálogo de la Biodiversidad de Colombia</h3>
-                <a class="btn">Proximamente</a>
-            </section>
-        -->
+        <section class="section  section--banner col col-1 bg-gray-2 bg-image--right" style="background-image:url(./img/pattern.svg)">
+            <div class="section__content row">
+                <div class="section__logo col col-8">
+                    <img src="./img/portal-logo.svg" alt="">
+                </div>
+                <div class="section__cont col col-2">
+                    <h3 class="logo-biodiversidad logo-biodiversidad--secondary">Portal <br>de <span>Datos</span></h3>
+                    <a href="#" class="btn">Entrar al portal</a>
+                </div>
+            </div>   
+        </section>  
         
+        <section class="section  section--banner col col-1 bg-gray-1 bg-image--right" style="background-image:url(./img/pattern.svg)">
+            <div class="section__content row">
+                <div class="section__logo col col-8">
+                    <img src="./img/colecciones-logo.svg" alt="">
+                </div>
+                <div class="section__cont col col-2">
+                    <h3 class="logo-biodiversidad logo-biodiversidad--secondary">Portal <br>de <span>Datos</span></h3>
+                    <a href="#" class="btn">Entrar al portal</a>
+                </div>
+            </div>   
+        </section>  
+
+        <section class="section  section--banner col col-1 bg-gray-2 bg-image--right" style="background-image:url(./img/pattern.svg)">
+            <div class="section__content row">
+                <div class="section__logo col col-8">
+                    <img src="./img/listas-logo.svg" alt="">
+                </div>
+                <div class="section__cont col col-2">
+                    <h3 class="logo-biodiversidad logo-biodiversidad--secondary">Portal <br>de <span>Datos</span></h3>
+                    <a href="#" class="btn">Entrar al portal</a>
+                </div>
+            </div>   
+        </section>  
+
+        <section class="section  section--banner col col-1 bg-gray-1 bg-image--right" style="background-image:url(./img/pattern.svg)">
+            <div class="section__content row">
+                <div class="section__logo col col-8">
+                    <img src="./img/catalogo-logo.svg" alt="">
+                </div>
+                <div class="section__cont col col-2">
+                    <h3 class="logo-biodiversidad logo-biodiversidad--secondary"><span>Catálogo <br>de <span>Datos</span></h3>
+                    <a href="#" class="btn">Entrar al portal</a>
+                </div>
+            </div>   
+        </section>  
+
     </main>
 
 

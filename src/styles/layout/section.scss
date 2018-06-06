@@ -1,10 +1,27 @@
 body{
     margin: 0;
     padding: 0;
+    background: linear-gradient(rgba(255,255,255,0), lighten($dark-teal,70%));
+    
 }
 
 .section{
     &-large{
         padding: 5em 1em;
+    }
+    &--banner{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    &__logo{
+        img{
+            max-height: 100px;
+        }
+    }
+}
+
+@media only screen and (max-width: 728px) {
+    .section__cont{
+        text-align: center;
     }
 }

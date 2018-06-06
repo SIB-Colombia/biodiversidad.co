@@ -15,3 +15,35 @@ h3{
 p{
     font-size: 1em;
 }
+
+.logo-biodiversidad{
+    display: block;
+    display: block;
+    color: $gray;
+    text-align: center;
+    width: 320px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 0.1rem 1rem;
+    margin: 1.5rem auto;
+    font-size: 2rem;
+    span{
+        font-weight: 700;
+    }
+
+    &--secondary{
+        border: 0;
+        color: $dark-gray;
+        text-align: left;
+        padding: 0;
+        margin: 1.5rem 0;
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+}
+
+@media only screen and (max-width: 728px) {
+    .logo-biodiversidad--secondary{
+        text-align: center;
+    }
+}

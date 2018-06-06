@@ -6,6 +6,11 @@
         &--full{
             background-size: cover;       
         }
+        &--right{
+            background-size: initial;
+            background-position-x: 100%;
+            background-repeat: no-repeat;
+        }
         &--fixed{
             background-attachment: fixed;
         }
