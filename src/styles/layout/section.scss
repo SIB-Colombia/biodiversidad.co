@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.section{
+    &-large{
+        padding: 5em 1em;
+    }
+}

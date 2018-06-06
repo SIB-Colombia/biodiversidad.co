@@ -1,0 +1,36 @@
+.bg{
+    &-teal{
+        background-color: $teal;
+    }
+    &-image{
+        &--full{
+            background-size: cover;       
+        }
+        &--fixed{
+            background-attachment: fixed;
+        }
+    }
+}
+
+
+.overlay{
+    &--pattern{
+        display: block;
+        &:after{
+            content: ""; 
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background-image: url(./img/pattern.svg);
+        }
+
+    }
+
+}
+
+.clip-path-mask{
+    clip-path: url(./img/pattern.svg);
+
+}
