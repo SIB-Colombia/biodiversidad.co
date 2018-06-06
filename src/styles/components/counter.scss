@@ -1,6 +1,35 @@
 .counter{
-    font-size: 3em;
+    max-width: 500px;
+    margin: auto;
+    background-color: rgba(255,255,255,0.4);
+    @include box-shadow(0, 2px, 15px, 4px, lighten($dark-gray, 60%));
+    
+    .col{
+        padding: 0;
+    } 
     &-title{
-        font-size: 1em;
+        font-size: 2em;
+        font-weight: 300;
+    }
+    &__number{
+        font-size: 3rem;
+        color: $dark-teal;
+    }
+    &__label{
+        font-size: 0.7em;
+        line-height: 1.8em;
+        color: white;
+        background-color: $orange;
+        text-transform: uppercase;
+        font-weight: 300;
+    }
+}
+
+
+@media only screen and (max-width: 728px) {
+    .counter{
+        .col{
+            width: 25%;
+        }
     }
 }
