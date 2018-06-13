@@ -1,5 +1,6 @@
 .counter{
-    max-width: 500px;
+    max-width: 700px;
+    width: 100%;
     margin: auto;
     background-color: rgba(255,255,255,0.4);
     @include box-shadow(0, 2px, 15px, 4px, lighten($dark-gray, 60%));

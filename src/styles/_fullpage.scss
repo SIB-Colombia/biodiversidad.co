@@ -1,4 +1,4 @@
-.fullpage-wrapper {
+/*.fullpage-wrapper {
 	width: 100%!important;
 	transform: none!important;
 }
@@ -18,4 +18,15 @@
 	visibility: visible;
 	opacity: 1;
 	z-index: 1;
+}
+*/
+
+.section {
+    /* the important one*/
+    background-attachment: fixed; 
+	background-size: auto 100%;
+    background-position: center right;
+    background-repeat: no-repeat;
+
+	box-shadow: 0 1px 15px 0px #ccc;
 }

@@ -32,7 +32,7 @@ gulp.task('javascript', function(){
 
 gulp.task('images', function(){
   return gulp.src('./src/images/*.{svg,png,gif,jpg}')
-    .pipe(gulp.dest('./dist/img'))
+    .pipe(gulp.dest('./dist/'))
 });
 
 gulp.task('watch', function () {
