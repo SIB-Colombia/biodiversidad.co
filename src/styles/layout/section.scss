@@ -21,6 +21,24 @@ body{
     }
 }
 
+.credito{
+    display: block;
+    margin-top: 3em;
+    opacity: 0.7;
+    img{
+        margin: 0;
+        vertical-align: middle;
+        height: 14px;
+    }
+    span{
+        font-size: .7em;
+        line-height: 1em;
+        font-weight: 400;
+        color: white;
+        font-style: italic;
+    }
+}
+
 @media only screen and (max-width: 728px) {
     .section__cont{
         text-align: center;

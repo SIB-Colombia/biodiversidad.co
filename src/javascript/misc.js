@@ -1,13 +1,7 @@
-$(document).ready(function() {
-	
-	/*
-	$('#fullpage').fullpage({
-		loopBottom: true,
-		loopTop: true,
-		autoScrolling: true
-	});
-*/
 $(document).ready(function () {
+	counter();
+
+
     $('#fullpage').pagepiling({
 		verticalCentered: true,
 		scrollingSpeed: 300,
@@ -27,30 +21,21 @@ $(document).ready(function () {
 
 			
 
-			if(nextIndex == 5){
+			if(nextIndex == 4){
 				$('#pp-nav').fadeOut();
 				
 			}
 
-			if(index == 5){
+			if(index == 4){
 				$('#pp-nav').fadeIn();
 				
 			}
 		}
-    });
-});
-
-/*
-	$('.arrow-down').click(function(){
-		console.log('down')
-		$.fn.fullpage.moveSectionDown();
 	});
-*/
+	
+});
 
-$('.arrow-down').click(function () {
-    $.fn.pagepiling.moveSectionDown();
-});
-});
+
 
 
 

@@ -25,9 +25,9 @@ p{
     font-weight: 300;
     text-transform: uppercase;
     padding: 0.1rem 1rem;
-    margin: 1.5rem auto;
+    margin: 1rem auto;
     font-size: 2rem;
-    text-shadow: 0 0 15px #333;
+    text-shadow: 0 0 10px rgba(0,0,0,0.1);
 
     span{
         font-weight: 700;
@@ -42,6 +42,7 @@ p{
         font-size: 2rem;
         line-height: 2rem;
         width: auto;
+        text-shadow: 0 0 10px rgba(0,0,0,1);
     }
     &--small{
         font-size: 1rem;

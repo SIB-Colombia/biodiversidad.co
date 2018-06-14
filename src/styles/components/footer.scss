@@ -8,5 +8,9 @@
     &__logo{
         max-height: 40px;
         margin: 0 1em;
+        display: block;
+        img{
+            height: 40px;
+        }
     }
 }
