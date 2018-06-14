@@ -24,9 +24,26 @@
 .section {
     /* the important one*/
     background-attachment: fixed; 
-	background-size: auto 100%;
-    background-position: center right;
+	background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
+	box-shadow: 0 1px 15px 0px $dark-gray;
+	&__content{
+		opacity: 0;
+		transition: all .5s ease-in;
+		transform: translateY(-20px);
+		text-align: center;
+		&.active{
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+}
 
-	box-shadow: 0 1px 15px 0px #ccc;
+#pp-nav li .active span{ 
+	background: white;
+}
+
+#pp-nav.right{
+	right: 0;
 }

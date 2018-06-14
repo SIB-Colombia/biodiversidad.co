@@ -3,11 +3,15 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  &.align-end{
+    justify-content: flex-end;
+  }
 }
 
 .col{
   box-sizing: border-box;
   padding: 0 0.8rem;
+  margin: 0;
 }
   
 @for $i from 1 through 12 {

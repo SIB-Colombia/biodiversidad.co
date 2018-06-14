@@ -19,26 +19,35 @@ p{
 .logo-biodiversidad{
     display: block;
     display: block;
-    color: $gray;
+    color: white;
     text-align: center;
     width: 320px;
-    font-weight: 400;
+    font-weight: 300;
     text-transform: uppercase;
     padding: 0.1rem 1rem;
     margin: 1.5rem auto;
     font-size: 2rem;
+    text-shadow: 0 0 15px #333;
+
     span{
         font-weight: 700;
     }
 
     &--secondary{
         border: 0;
-        color: $dark-gray;
+        color: white;
         text-align: left;
         padding: 0;
         margin: 1.5rem 0;
-        font-size: 1.8rem;
+        font-size: 2rem;
         line-height: 2rem;
+        width: auto;
+    }
+    &--small{
+        font-size: 1rem;
+        line-height: 2rem;
+        width: auto;
+        margin: 0;
     }
 }
 

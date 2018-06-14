@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import "_pagepilling";
+@import "_fonts";
 @import "_variables";
 @import "_mixins";
 @import "_typography";
@@ -17,6 +19,7 @@
 @import "components/forms";
 @import "components/images";
 @import "components/nav";
+@import "components/footer";
 
 @import "_fullpage";
 
