@@ -1,5 +1,5 @@
 $(document).ready(function () {
-	counter();
+	//counter();
 
 
     $('#fullpage').pagepiling({
@@ -9,24 +9,23 @@ $(document).ready(function () {
 		direction: 'vertical',
 		easing: 'easeInQuart',
 		loop: true,
-		/*navigation: {
+		navigation: {
             'textColor': '#fff',
             'bulletsColor': '#fff',
             'position': 'right',
-		},*/
-		navigation: false,
+		},
 		onLeave: function(index, nextIndex, direction){
 			$('.section').eq(index -1).find('.section__content').removeClass('active');
 			$('.section').eq(nextIndex -1).find('.section__content').addClass('active');
 
 			
 
-			if(nextIndex == 4){
+			if(nextIndex == 5){
 				$('#pp-nav').fadeOut();
 				
 			}
 
-			if(index == 4){
+			if(index == 5){
 				$('#pp-nav').fadeIn();
 				
 			}
