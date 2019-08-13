@@ -17,18 +17,6 @@ $(document).ready(function () {
 		onLeave: function(index, nextIndex, direction){
 			$('.section').eq(index -1).find('.section__content').removeClass('active');
 			$('.section').eq(nextIndex -1).find('.section__content').addClass('active');
-
-			
-
-			if(nextIndex == 5){
-				$('#pp-nav').fadeOut();
-				
-			}
-
-			if(index == 5){
-				$('#pp-nav').fadeIn();
-				
-			}
 		}
 	});
 	
