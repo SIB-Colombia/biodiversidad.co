@@ -7,6 +7,15 @@
     <link rel="icon" type="image/png" href="http://beta3.datos.biodiversidad.co/favicon.ico">
     <link rel="stylesheet" href="./main.css">
     <title>Biodiversidad.co</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120994855-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-120994855-1');
+    </script>
 </head>
 <body>
     <header class="top-bar">
@@ -47,7 +56,7 @@
 
   
         <section id="section2" class="section section--banner col col-1 bg-gray-3 " 
-            style="background-image:url(https://s3.amazonaws.com/sib-resources/images/biodiversidadco/v2_datos.jpg)">
+            style="background-image:url(./bg_datos.jpg)">
             <div class="section__content active center">
                 <img src="./logo-datos.svg" alt="">
                 <a href="http://datos.biodiversidad.co" class="btn" target="_blank">Explora</a>
@@ -59,7 +68,7 @@
         </section>  
         
         <section id="section3" class="section  section--banner col col-1 bg-gray-2 " 
-            style="background-image:url(https://s3.amazonaws.com/sib-resources/images/biodiversidadco/v2_colecciones.jpg)">
+            style="background-image:url(./bg_colecciones.jpg)">
             <div class="section__content center">
                 <img src="./logo-colecciones.svg" alt="">
                 <a href="http://colecciones.biodiversidad.co" class="btn" target="_blank">Explora</a>
@@ -71,7 +80,7 @@
         </section>  
         
         <section id="section4" class="section  section--banner col col-1 bg-gray-1 " 
-            style="background-image:url(https://s3.amazonaws.com/sib-resources/images/biodiversidadco/pez.jpg)">
+            style="background-image:url(./bg_listas.jpg)">
             <div class="section__content center">
                 <img src="./logo-listas.svg" alt="">
                 <a href="http://listas.biodiversidad.co" class="btn" target="_blank">Explora</a>
@@ -83,7 +92,7 @@
         </section>  
         
         <section id="section5" class="section  section--banner col col-1 bg-white" 
-            style="background-image:url(https://s3.amazonaws.com/sib-resources/images/biodiversidadco/v2_CBC3.jpg)">
+            style="background-image:url(./bg_catalogo.jpg)">
             <div class="section__content center">
                 <img src="./logo-catalogo.svg" alt="">
                 <a href="http://catalogo.biodiversidad.co" class="btn" target="_blank">Explora</a>
@@ -95,13 +104,15 @@
         </section>  
 
         <section id="section6" class="section  section--banner col col-1 bg-white" 
-            style="background-image:url(https://s3.amazonaws.com/cifras.biodiversidad.co/img/bg-2.jpg)">
+            style="background-image:url(./bg_cifras.jpg)">
             <div class="section__content center">
                 <img src="./logo-cifras-b.svg" alt="">
                 <a href="https://cifras.biodiversidad.co" class="btn" target="_blank">Explora</a>
                 <span class="credito">
                     <img src="https://www.sibcolombia.net/wp-content/uploads/2017/05/ph-credito.png" alt="">
-                    <span>Sebastian Di Domenico</span>
+                    <span><a href="https://www.flickr.com/photos/83024256@N03/30762046571/"
+                            target="_blank">Elson Meneses Pelayo</a>
+                    </span>
                 </span>
             </div>   
         </section>  
@@ -109,8 +120,9 @@
     
 
     <footer class="footer row">
+        <p></p>
         <a href="https://sibcolombia.net" target="_blank" class="footer__logo">
-            <img src="http://beta3.datos.biodiversidad.co/images/sib-logo.svg" alt="logo SiB Colombia">
+            <img src="./logo-sib.svg" alt="logo SiB Colombia">
         </a>
     </footer>
     
