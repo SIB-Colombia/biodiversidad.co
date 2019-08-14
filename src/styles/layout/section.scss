@@ -14,9 +14,12 @@ body{
         padding-right: 5%;
     }
     &__content{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
         img{
             margin: 2em auto;
-            max-height: 90px;
+            height: 90px;
         }
     }
 }
