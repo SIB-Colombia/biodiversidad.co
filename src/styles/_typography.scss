@@ -58,3 +58,11 @@ p{
         margin: 1.5rem auto;
     }
 }
+
+@media only screen and (max-width: 728px) {
+    .logo-biodiversidad{
+        margin: 0.5em auto;
+        width: 80%;
+        font-size: 1.5em;
+    }
+}
